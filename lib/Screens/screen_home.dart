@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:chat_gpt/constand.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+// import 'package:htt';
 
 import '../model.dart';
 
@@ -157,8 +158,8 @@ class _HomeScreenState extends State<HomeScreen> {
 class ChatMessagesWidgeet extends StatelessWidget {
   final String text;
   final ChatMessageType chatMessageType;
-  ChatMessagesWidgeet(
-      {super.key, required this.text, required this.chatMessageType}) {}
+  const ChatMessagesWidgeet(
+      {super.key, required this.text, required this.chatMessageType});
 
   // const ChatMessagesWidgeet({super.key});
 
